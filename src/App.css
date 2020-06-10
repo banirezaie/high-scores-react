@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.parentDiv {
+  border: 2px solid blue;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+.oneCountry {
+  margin: 5%;
+  border: 10px solid greenyellow;
+}
+.countryName {
+  font-size: 2.5em;
+  color: #61dafb;
+}
+.h1 {
+  font-size: 3em;
+  color: #61dafb;
+}
+.name-score {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+  margin: 5px;
+  font-size: 1.5em;
+  padding: 5px;
+}
+.numbers {
+  color: brown;
+}
+.allNamesScores {
+  border: 2px solid black;
+  margin: 5px;
+}
